@@ -18,11 +18,11 @@ void main()
     printf("list \t\t= %p\n", list); //list 배열의 시작 주소 값이 출력됨
     printf("&list[0] \t= %p\n", &list[0]); //list 배열의 시작 주소 값이 출력됨
     printf("list + 0 \t= %p\n", list+0); //list 배열의 시작 주소 값이 출력됨
-    printf("list + 1 \t= %p\n", list+1); //list 배열의 두 번쨰 항목의 주소 값이 출력됨
-    printf("list + 2 \t= %p\n", list+2); //list 배열의 세 번쨰 항목의 주소 값이 출력됨
-    printf("list + 3 \t= %p\n", list+3); //list 배열의 네 번쨰 항목의 주소 값이 출력됨
-    printf("list + 4 \t= %p\n", list+4); //list 배열의 다섯 번쨰 항목의 주소 값이 출력됨
-    printf("&list[4] \t= %p\n", &list[4]); //list 배열의 다섯 번쨰 항목의 주소 값이 출력됨
+    printf("list + 1 \t= %p\n", list+1); //list 배열의 두 번째 항목의 주소 값이 출력됨
+    printf("list + 2 \t= %p\n", list+2); //list 배열의 세 번째 항목의 주소 값이 출력됨
+    printf("list + 3 \t= %p\n", list+3); //list 배열의 네 번째 항목의 주소 값이 출력됨
+    printf("list + 4 \t= %p\n", list+4); //list 배열의 다섯 번째 항목의 주소 값이 출력됨
+    printf("&list[4] \t= %p\n", &list[4]); //list 배열의 다섯 번째 항목의 주소 값이 출력됨
 
     free(plist[0]); //할당된 메모리를 해제 시켜줌
 }
